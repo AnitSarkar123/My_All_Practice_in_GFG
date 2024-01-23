@@ -10,15 +10,23 @@ public:
 	// Function returns the second
 	// largest elements
 	int print2largest(int arr[], int n) {
-	    int result=-1;
+	        // code here
         sort(arr,arr+n);
-        for(int i=0; i<n; i++)
-        {
-            if(arr[i]!=arr[n-1])
-            result=arr[i];
-        }
-        return result;
-	}
+        int result = 0;
+        
+for(int i=n-1; i>0; i--) {
+if(arr[i]!=arr[i-1]) {
+result = arr[i-1];
+break;
+}
+}
+ 
+if(result ==0)
+    result = -1;
+ 
+return result;
+    }
+	
 };
 
 //{ Driver Code Starts.
