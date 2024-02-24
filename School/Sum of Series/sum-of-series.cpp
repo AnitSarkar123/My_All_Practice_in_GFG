@@ -1,32 +1,39 @@
 //{ Driver Code Starts
-#include <bits/stdc++.h>
-
+#include<bits/stdc++.h>
 using namespace std;
 
+
 // } Driver Code Ends
-//User function template for C++
-class Solution{
-public:
-	// function to return sum of  1, 2, ... n
-	long long seriesSum(int n) {
-	    long long x=n+1;
-	    long long sum=((long long)n*x)/2;
-	    return sum;
-	}
+
+class Solution {
+  public:
+    long long seriesSum(int n) {
+        // code here
+        long sum=0;
+        if(n>=1){
+            sum=(long) n*(n+1)/2;
+        }
+        return sum;
+    }
 };
+
 
 //{ Driver Code Starts.
 
-int main() {
+int main(){
     int t;
-    cin >> t;
-    while (t--) {
+    scanf("%d ",&t);
+    while(t--){
+        
         int n;
-        cin >> n;
-        Solution ob;
-        auto ans = ob.seriesSum(n);
-        cout << ans << "\n";
+        scanf("%d",&n);
+        
+        Solution obj;
+        long long res = obj.seriesSum(n);
+        
+        cout<<res<<endl;
+        
     }
-    return 0;
 }
+
 // } Driver Code Ends
