@@ -1,0 +1,30 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/common-elements1132/1?page=2&sortBy=submissions">Common elements</a></h2><h3>Difficulty Level : Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given three arrays sorted in increasing order. Find the elements that are common in all three arrays.<br>
+<strong>Note:&nbsp;</strong></span><span style="font-size:18px">can you take care of the duplicates without using any additional Data Structure?</span></p>
+
+<p><strong><span style="font-size:18px">Example 1:</span></strong></p>
+
+<div class="pieces-code-wrapper" style="text-align: left; width: 100%; margin-top: 10px;"><pre style="margin-bottom: 0px; margin-top: 0px;"><span style="font-size:18px"><strong>Input:
+</strong>n1 = 6; A = {1, 5, 10, 20, 40, 80}
+n2 = 5; B = {6, 7, 20, 80, 100}
+n3 = 8; C = {3, 4, 15, 20, 30, 70, 80, 120}
+<strong>Output:</strong> 20 80
+<strong>Explanation:</strong> 20 and 80 are the only
+common elements in A, B and C.</span></pre><div class="pieces-btn-wrapper" style="border: none; display: flex; flex-direction: row; opacity: 0; width: auto; transition: opacity 0.3s ease-out 0s; height: 26px; margin-top: 10px; margin-bottom: 10px;"><button class="pieces-btn pieces-copy-and-save" style="width: auto; font-size: 12px; border: 1px solid rgb(33, 33, 33); border-radius: 16px; margin-right: 4px; padding: 4px 6px 4px 4px; line-height: normal; height: fit-content; cursor: pointer; user-select: none; display: flex; align-items: center; background-color: rgb(33, 33, 33); color: rgb(255, 255, 255);"><img src="https://storage.googleapis.com/pieces-web-extensions-cdn/pieces.png" class="pieces-logo" style="margin: 0px 4px 0px 0px; border-radius: 50%; filter: none; float: left; width: 16px; height: 16px;"><span class="pieces-btn-text">Copy And Save</span></button><button class="pieces-btn pieces-share" style="width: auto; font-size: 12px; border: 1px solid rgb(33, 33, 33); border-radius: 16px; margin-right: 4px; padding: 4px 6px 4px 4px; line-height: normal; height: fit-content; cursor: pointer; user-select: none; display: flex; align-items: center; background-color: rgb(33, 33, 33); color: rgb(255, 255, 255);"><img src="https://storage.googleapis.com/pieces-web-extensions-cdn/link.png" class="pieces-logo" style="margin: 0px 4px 0px 0px; border-radius: 50%; filter: none; float: left; width: 16px; height: 16px;"><span class="pieces-btn-text">Share</span></button><button class="pieces-btn pieces-ask-copilot" style="width: auto; font-size: 12px; border: 1px solid rgb(33, 33, 33); border-radius: 16px; margin-right: 4px; padding: 4px 6px 4px 4px; line-height: normal; height: fit-content; cursor: pointer; user-select: none; display: flex; align-items: center; background-color: rgb(33, 33, 33); color: rgb(255, 255, 255);"><img src="https://storage.googleapis.com/pieces-web-extensions-cdn/copilot.png" class="pieces-logo" style="margin: 0px 4px 0px 0px; border-radius: 50%; filter: none; float: left; width: 16px; height: 16px;"><span class="pieces-btn-text">Ask Copilot</span></button><button class="pieces-btn pieces-settings" style="width: auto; font-size: 12px; border: 1px solid rgb(33, 33, 33); border-radius: 16px; margin-right: 4px; padding: 4px; line-height: normal; height: fit-content; cursor: pointer; user-select: none; display: flex; align-items: center; background-color: rgb(33, 33, 33); color: rgb(255, 255, 255);"><img src="https://storage.googleapis.com/pieces-web-extensions-cdn/settings.png" class="pieces-logo" style="margin: 0px; border-radius: 50%; filter: none; float: left; width: 16px; height: 16px; max-width: 100%;"></button></div></div>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px"><strong>Your Task: &nbsp;</strong><br>
+You don't need to read input or print anything. Your task is to complete the function <strong>commonElements() </strong>which take the 3 arrays A[], B[], C[] and their respective sizes n1, n2 and n3 as inputs and returns an array containing the common element present in all the 3 arrays in sorted order.&nbsp;<br>
+If there are no such elements return an empty array. In this case the output will be printed as -1.</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px"><strong>Expected Time Complexity: </strong>O(n1 + n2 + n3)<br>
+<strong>Expected Auxiliary Space:</strong> O(n1 + n2 + n3)</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-size:18px"><strong>Constraints:</strong><br>
+1 &lt;= n1, n2, n3 &lt;= 10^5<br>
+The array elements can be both positive or negative integers. </span></p>
+</div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>VMWare</code>&nbsp;<code>Microsoft</code>&nbsp;<code>MAQ Software</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Searching</code>&nbsp;<code>Algorithms</code>&nbsp;
