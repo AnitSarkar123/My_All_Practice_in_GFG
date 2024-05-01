@@ -1,0 +1,28 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/special-stack/1?page=1&category=STL,CPP&sortBy=submissions">Special Stack</a></h2><h3>Difficulty Level : Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Design a data-structure<strong> SpecialStack&nbsp;</strong>that supports all the stack operations like <strong>push()</strong>, <strong>pop()</strong>,<strong> isEmpty()</strong>, <strong>isFull()</strong> and an additional operation <strong>getMin()</strong> which should return <strong>minimum </strong>element from the SpecialStack. Your task is to <strong>complete all the functions</strong>, using stack data-Structure.</span></p>
+
+<p><br>
+<span style="font-size:18px"><strong>Example 1:</strong></span></p>
+
+<div class="pieces-code-wrapper" style="text-align: left; width: 100%; margin-top: 10px;"><pre style="margin-bottom: 0px; margin-top: 0px;"><span style="font-size:18px"><strong>Input:
+</strong>Stack: 18 19 29 15 16<strong>
+Output: </strong>15
+<strong>Explanation:</strong>
+The minimum element of the stack is 15.</span>
+</pre><div class="pieces-btn-wrapper" style="border: none; display: flex; flex-direction: row; opacity: 0; width: auto; transition: opacity 0.3s ease-out 0s; height: 26px; margin-top: 10px; margin-bottom: 10px;"><button class="pieces-btn pieces-copy-and-save" style="width: auto; font-size: 12px; border: 1px solid rgb(33, 33, 33); border-radius: 16px; margin-right: 4px; padding: 4px 6px 4px 4px; line-height: normal; height: fit-content; cursor: pointer; user-select: none; display: flex; align-items: center; background-color: rgb(33, 33, 33); color: rgb(255, 255, 255);"><img src="https://storage.googleapis.com/pieces-web-extensions-cdn/pieces.png" class="pieces-logo" style="margin: 0px 4px 0px 0px; border-radius: 50%; filter: none; float: left; width: 16px; height: 16px;"><span class="pieces-btn-text">Copy And Save</span></button><button class="pieces-btn pieces-share" style="width: auto; font-size: 12px; border: 1px solid rgb(33, 33, 33); border-radius: 16px; margin-right: 4px; padding: 4px 6px 4px 4px; line-height: normal; height: fit-content; cursor: pointer; user-select: none; display: flex; align-items: center; background-color: rgb(33, 33, 33); color: rgb(255, 255, 255);"><img src="https://storage.googleapis.com/pieces-web-extensions-cdn/link.png" class="pieces-logo" style="margin: 0px 4px 0px 0px; border-radius: 50%; filter: none; float: left; width: 16px; height: 16px;"><span class="pieces-btn-text">Share</span></button><button class="pieces-btn pieces-ask-copilot" style="width: auto; font-size: 12px; border: 1px solid rgb(33, 33, 33); border-radius: 16px; margin-right: 4px; padding: 4px 6px 4px 4px; line-height: normal; height: fit-content; cursor: pointer; user-select: none; display: flex; align-items: center; background-color: rgb(33, 33, 33); color: rgb(255, 255, 255);"><img src="https://storage.googleapis.com/pieces-web-extensions-cdn/copilot.png" class="pieces-logo" style="margin: 0px 4px 0px 0px; border-radius: 50%; filter: none; float: left; width: 16px; height: 16px;"><span class="pieces-btn-text">Ask Copilot</span></button><button class="pieces-btn pieces-settings" style="width: auto; font-size: 12px; border: 1px solid rgb(33, 33, 33); border-radius: 16px; margin-right: 4px; padding: 4px; line-height: normal; height: fit-content; cursor: pointer; user-select: none; display: flex; align-items: center; background-color: rgb(33, 33, 33); color: rgb(255, 255, 255);"><img src="https://storage.googleapis.com/pieces-web-extensions-cdn/settings.png" class="pieces-logo" style="margin: 0px; border-radius: 50%; filter: none; float: left; width: 16px; height: 16px; max-width: 100%;"></button></div></div>
+
+<p>&nbsp;</p>
+
+<p><br>
+<strong><span style="font-size:18px">Your Task:</span></strong><br>
+<span style="font-size:18px">Since this is a function problem, you don't need to take inputs. You just have to complete 5 functions,&nbsp;<strong>push()&nbsp;</strong>which takes the stack and an integer x&nbsp;as input and pushes it into the stack;&nbsp;<strong>pop()&nbsp;</strong>which takes the stack as input and pops out the topmost element from the stack;&nbsp;<strong>isEmpty()&nbsp;</strong>which takes the stack as input and returns true/false depending upon whether the stack is empty or not;&nbsp;<strong>isFull()&nbsp;</strong>which takes the stack and the size of the stack as input and returns true/false depending upon whether the stack is full or not (depending upon the<br>
+given size);&nbsp;<strong>getMin()&nbsp;</strong>which takes the stack as&nbsp;input and returns the minimum element of the stack.&nbsp;<br>
+<strong>Note:</strong>&nbsp;The output of the code will be the value returned by&nbsp;<strong>getMin()&nbsp;</strong>function.</span></p>
+
+<p><br>
+<span style="font-size:18px"><strong>Expected Time Complexity:&nbsp;</strong>O(N) for getMin, O(1) for remaining all 4 functions.<br>
+<strong>Expected Auxiliary Space:&nbsp;</strong>O(1) for all the 5 functions.</span></p>
+
+<p><br>
+<span style="font-size:18px"><strong>Constraints:</strong><br>
+1 ≤ N ≤ 10<sup>4</sup></span></p>
+</div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Paytm</code>&nbsp;<code>VMWare</code>&nbsp;<code>Flipkart</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>FactSet</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<code>Walmart</code>&nbsp;<code>Goldman Sachs</code>&nbsp;<code>Intuit</code>&nbsp;<code>Adobe</code>&nbsp;<code>SAP Labs</code>&nbsp;<code>Linkedin</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Stack</code>&nbsp;<code>STL</code>&nbsp;<code>Data Structures</code>&nbsp;
