@@ -30,11 +30,25 @@ class Solution {
         dp[key]=ans;
         return dp[key];
     }
+    int solveTab(vector<int>& arr, int key){
+        vector<int>dp(key+1,0);
+        dp[0]=1;
+        for(int i=1;i<=key;i++){
+            for(int j=0;j<arr.size();j++){
+                if(i-arr[j]>=0){
+                dp[i]=dp[i]+dp[i-arr[j]];
+                }
+            }
+        }
+        return dp[key];
+
+    }
     int combinationSum4(vector<int>& arr, int key) {
         // complete the function here
         // return solveRec( arr,  key);
-        vector<int>dp(key+1,-1);
-        return solveMem( arr,  key,dp);
+        //vector<int>dp(key+1,-1);
+        //return solveMem( arr,  key,dp);
+        return solveTab(arr,  key);
         
         
     }
